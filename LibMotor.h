@@ -47,6 +47,7 @@ class WheelDrive : public Mdrive{
         double getW();
         double getV();
 		double getDeltaTheta();
+		double getDeltaCount();
 		void resetTheta();
         void update(double dT);
 	private:	

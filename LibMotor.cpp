@@ -96,3 +96,7 @@ void WheelDrive::setRadius(int radius){
 double WheelDrive::getDeltaTheta(){
 		return this->radpp*(this->knobNow - this->knobLast);
 }
+
+double WheelDrive::getDeltaCount(){
+		return (this->knobNow - this->knobLast);
+}
